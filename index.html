@@ -2,35 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=ytader, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+          integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-    
     <header class="header">
         <nav>
-            <div class="logo"><i class="fa-solid fa-hippo fa-xl fa-fade"></i></div>
-            <div class="navigation">
+            <div class="logo animate__animated animate__bounceIn">
+                <i class="fa-solid fa-hippo fa-xl fa-fade"></i>
+            </div>
+            <div class="navigation animate__animated animate__fadeInDown">
                 <a href="#">Главная</a>
                 <a href="#Portfolio">Портфолио</a>
                 <a href="#Contact">Контакты</a>
             </div>
         </nav>
         <div class="container">
-
             <div class="header-row">
-            <img src="img/photo.jpg" srcset="img/photo@2x.jpg" alt="" class="header-img">
-            <div class="header-desc">
-                <h1>Диана Елинскас</h1>
-                <p class="header-text">фрилансер, веб-разработчик,<br> создание сайтов</p>
-                <div class="header-btns">
-                    <button class="btn">Портфолио</button>
-                    <button class="btn-outline">Контакты</button>
+                <img src="img/photo.jpg" srcset="img/photo@2x.jpg" alt=""
+                     class="header-img animate__animated animate__fadeInLeft">
+                <div class="header-desc">
+                    <h1 class="animate__animated animate__fadeInRight animate__delay-1s">
+                        Диана Елинскас
+                    </h1>
+                    <p class="header-text animate__animated animate__fadeInRight animate__delay-2s">
+                        фрилансер, веб-разработчик,<br> создание сайтов
+                    </p>
+                    <div class="header-btns animate__animated animate__fadeInUp animate__delay-3s">
+                        <button class="btn">Портфолио</button>
+                        <button class="btn-outline">Контакты</button>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </header>
@@ -38,18 +48,23 @@
     <main>
         <section id="Portfolio" class="portfolio-section">
             <div class="container">
-                <h2 class="portfolio-section__title">Портфолио</h2>
+                <h2 class="portfolio-section__title animate__animated animate__fadeInUp">
+                    Портфолио
+                </h2>
                 <div class="portfolio-section__list">
-                    <article class="portfolio-card">
-                        <img src="img/project-01.jpg" srcset="img/project-01@2x.jpg" alt="Сайт магазина мебели" class="portfolio-card__img">
+                    <article class="portfolio-card animate__animated animate__fadeInUp">
+                        <img src="img/project-01.jpg" srcset="img/project-01@2x.jpg"
+                             alt="Сайт магазина мебели" class="portfolio-card__img">
                         <p class="portfolio-card__caption">Сайт магазина мебели</p>
                     </article>
-                    <article class="portfolio-card">
-                        <img src="img/project-02.jpg" srcset="img/project-02@2x.jpg" alt="Сайт туристического агентства" class="portfolio-card__img">
+                    <article class="portfolio-card animate__animated animate__fadeInUp animate__delay-1s">
+                        <img src="img/project-02.jpg" srcset="img/project-02@2x.jpg"
+                             alt="Сайт туристического агентства" class="portfolio-card__img">
                         <p class="portfolio-card__caption">Сайт туристического агентства</p>
                     </article>
-                    <article class="portfolio-card">
-                        <img src="img/project-03.jpg" srcset="img/project-03@2x.jpg" alt="Сайт жилого комплекса" class="portfolio-card__img">
+                    <article class="portfolio-card animate__animated animate__fadeInUp animate__delay-2s">
+                        <img src="img/project-03.jpg" srcset="img/project-03@2x.jpg"
+                             alt="Сайт жилого комплекса" class="portfolio-card__img">
                         <p class="portfolio-card__caption">Сайт жилого комплекса</p>
                     </article>
                 </div>
@@ -58,30 +73,33 @@
 
         <section id="Contact" class="contact-section">
             <div class="container">
-                <h2 class="contact-section__title">Контакты</h2>
+                <h2 class="contact-section__title animate__animated animate__fadeInUp">
+                    Контакты
+                </h2>
                 <div class="contact-section__links">
-                    <a href="#" class="contact-link">
+                    <a href="#" class="contact-link animate__animated animate__fadeInUp animate__delay-1s">
                         <i class="fa-brands fa-telegram contact-link__icon contact-link__icon--tg"></i>
                         <span>Написать в Telegram</span>
                     </a>
-                    <a href="#" class="contact-link">
+                    <a href="#" class="contact-link animate__animated animate__fadeInUp animate__delay-2s">
                         <i class="fa-solid fa-comment-dots contact-link__icon contact-link__icon--max"></i>
                         <span>Отправить в Max</span>
                     </a>
-                    <a href="#" class="contact-link">
+                    <a href="#" class="contact-link animate__animated animate__fadeInUp animate__delay-3s">
                         <i class="fa-brands fa-vk contact-link__icon contact-link__icon--vk"></i>
                         <span>Связаться Вконтакте</span>
                     </a>
                 </div>
-                <div class="footer-info">
+                <div class="footer-info animate__animated animate__fadeIn animate__delay-3s">
                     <p>&copy; Диана Елинскас</p>
                     <p>HTML верстка, создание сайтов</p>
                     <p>ДОНЕЦК</p>
-                    <p class="footer-info__made"><i class="fa-solid fa-laptop-code"></i> Макет сверстан нативно</p>
+                    <p class="footer-info__made">
+                        <i class="fa-solid fa-laptop-code"></i> Макет сверстан нативно
+                    </p>
                 </div>
             </div>
         </section>
     </main>
-
 </body>
 </html>
