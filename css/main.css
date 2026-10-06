@@ -272,3 +272,57 @@ h1{
         padding: 60px 0 30px;
     }
 }
+
+
+.btn {
+    cursor: pointer;
+    transition: background-color .3s ease,
+                transform .3s ease,
+                box-shadow .3s ease;
+}
+.btn:hover {
+    background-color: #1782CF;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(23, 130, 207, .4);
+}
+
+.btn-outline {
+    transition: background-color .3s ease,
+                color .3s ease,
+                transform .3s ease,
+                box-shadow .3s ease;
+}
+.btn-outline:hover {
+    background-color: #fff;
+    color: #000;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, .15);
+}
+
+.contact-link {
+    transition: background-color .3s ease,
+                border-color .3s ease,
+                transform .3s ease,
+                box-shadow .3s ease;
+}
+.contact-link:hover {
+    background-color: #404040;
+    border-color: #1782CF;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(23, 130, 207, .35);
+}
+
+.contact-link__icon {
+    transition: transform .3s ease;
+}
+.contact-link:hover .contact-link__icon {
+    transform: scale(1.15);
+}
+
+.portfolio-card__img {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.portfolio-card:hover .portfolio-card__img {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .18);
+}
