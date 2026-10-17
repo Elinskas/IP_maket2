@@ -114,6 +114,15 @@ h1{
     color: #000000;
 }
 
+.timer-badge__value {
+    font-family: 'Courier New', Courier, monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
 /* --- Секция Портфолио --- */
 .portfolio-section {
     padding: 100px 0 80px;
